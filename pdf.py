@@ -5,6 +5,18 @@ import os
 
 tk.Tk().withdraw()
 
+def list():
+    for line in [
+        "1. merge()",
+        "2. sub_pdf()",
+        "3. delete_pages_by_range()",
+        "4. insert_at_position()",
+        "5. merge_pages()",
+        "6. delete_pages()",
+        " - to get function description, use __doc__. For example, merge().__doc__"
+    ]:
+        print(line)
+
 # Merge multiple pdf files
 def merge():
     '''
